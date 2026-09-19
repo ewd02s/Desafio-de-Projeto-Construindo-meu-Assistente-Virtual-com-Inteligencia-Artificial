@@ -1,0 +1,105 @@
+{
+  "conceitos": [
+    {
+      "id": "meta_financeira",
+      "titulo": "Meta financeira",
+      "conteudo": "Uma meta financeira é um objetivo que possui um valor definido e, quando aplicável, um prazo para ser alcançado."
+    },
+    {
+      "id": "economia_mensal",
+      "titulo": "Economia mensal",
+      "conteudo": "Economia mensal é o valor que uma pessoa decide reservar regularmente para alcançar um determinado objetivo."
+    },
+    {
+      "id": "planejamento_financeiro",
+      "titulo": "Planejamento financeiro",
+      "conteudo": "Planejamento financeiro consiste em organizar receitas, despesas e objetivos para tomar decisões sobre o uso do dinheiro."
+    },
+    {
+      "id": "juros",
+      "titulo": "Juros",
+      "conteudo": "Juros representam um valor adicional relacionado ao uso ou à aplicação de dinheiro. O cálculo depende das condições específicas da operação."
+    },
+    {
+      "id": "juros_compostos",
+      "titulo": "Juros compostos",
+      "conteudo": "Juros compostos são calculados considerando o valor acumulado ao longo do tempo, fazendo com que os juros possam incidir sobre juros anteriores."
+    }
+  ],
+
+  "faq": [
+    {
+      "id": "faq_calculo_mensal",
+      "pergunta": "Quanto preciso guardar por mês?",
+      "resposta": "Em uma simulação simples, sem considerar juros, taxas ou rendimentos, divida o valor da meta pelo número de meses disponíveis."
+    },
+    {
+      "id": "faq_prazo",
+      "pergunta": "O que posso fazer se o valor mensal ficar muito alto?",
+      "resposta": "Você pode avaliar um prazo maior, uma meta de menor valor ou uma combinação dessas alternativas."
+    },
+    {
+      "id": "faq_meta",
+      "pergunta": "Como definir uma meta financeira?",
+      "resposta": "Defina o objetivo, estime o valor necessário e estabeleça um prazo quando isso fizer sentido para a situação."
+    },
+    {
+      "id": "faq_rendimento",
+      "pergunta": "O cálculo considera rendimento?",
+      "resposta": "A simulação básica do FinanIA não considera rendimento. Quando uma taxa ou rendimento não for fornecido de forma confiável, o assistente não deve inventar esse valor."
+    },
+    {
+      "id": "faq_imprevisto",
+      "pergunta": "E se eu não conseguir guardar o valor planejado?",
+      "resposta": "O planejamento pode ser revisado. É possível avaliar um prazo diferente, ajustar a meta ou revisar o valor que pode ser reservado."
+    }
+  ],
+
+  "regras": [
+    {
+      "id": "regra_01",
+      "descricao": "Não inventar informações financeiras."
+    },
+    {
+      "id": "regra_02",
+      "descricao": "Não inventar taxas de juros, rendimentos ou condições de produtos financeiros."
+    },
+    {
+      "id": "regra_03",
+      "descricao": "Quando faltarem informações necessárias para um cálculo, solicitar os dados que estiverem faltando."
+    },
+    {
+      "id": "regra_04",
+      "descricao": "Informar quando uma resposta não puder ser determinada com os dados disponíveis."
+    },
+    {
+      "id": "regra_05",
+      "descricao": "Apresentar cálculos como simulações quando não houver dados suficientes para representar uma situação financeira real."
+    },
+    {
+      "id": "regra_06",
+      "descricao": "Não solicitar senhas, códigos de segurança ou dados bancários desnecessários."
+    },
+    {
+      "id": "regra_07",
+      "descricao": "Utilizar linguagem simples e objetiva."
+    }
+  ],
+
+  "exemplos": [
+    {
+      "id": "exemplo_01",
+      "situacao": "Meta de R$ 3.000 em 6 meses",
+      "calculo": "3000 / 6",
+      "resultado": "R$ 500 por mês",
+      "observacao": "Simulação simples sem considerar juros, taxas ou rendimentos."
+    },
+    {
+      "id": "exemplo_02",
+      "situacao": "Meta de R$ 2.400 em 12 meses",
+      "calculo": "2400 / 12",
+      "resultado": "R$ 200 por mês",
+      "observacao": "Simulação simples sem considerar juros, taxas ou rendimentos."
+    }
+  ]
+}

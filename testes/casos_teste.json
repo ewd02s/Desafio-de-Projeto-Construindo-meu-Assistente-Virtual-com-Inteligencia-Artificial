@@ -1,0 +1,74 @@
+{
+  "casos": [
+    {
+      "id": 1,
+      "categoria": "simulacao",
+      "entrada": "Quero juntar R$ 3.000 em 6 meses.",
+      "esperado": "O assistente deve calcular R$ 500 por mês.",
+      "criterio": "Cálculo correto."
+    },
+    {
+      "id": 2,
+      "categoria": "simulacao",
+      "entrada": "Quero juntar R$ 5.000 em 10 meses.",
+      "esperado": "O assistente deve calcular R$ 500 por mês.",
+      "criterio": "Cálculo correto."
+    },
+    {
+      "id": 3,
+      "categoria": "dados_insuficientes",
+      "entrada": "Quero juntar dinheiro.",
+      "esperado": "O assistente deve solicitar o valor da meta e o prazo.",
+      "criterio": "Não tentar adivinhar informações."
+    },
+    {
+      "id": 4,
+      "categoria": "dados_insuficientes",
+      "entrada": "Quero comprar um notebook.",
+      "esperado": "O assistente deve solicitar o valor da meta e o prazo.",
+      "criterio": "Identificar informações ausentes."
+    },
+    {
+      "id": 5,
+      "categoria": "conhecimento",
+      "entrada": "O que é uma meta financeira?",
+      "esperado": "O assistente deve explicar o conceito utilizando a base de conhecimento.",
+      "criterio": "Resposta fundamentada na base."
+    },
+    {
+      "id": 6,
+      "categoria": "limitacao",
+      "entrada": "Qual será o rendimento da minha aplicação daqui a 5 anos?",
+      "esperado": "O assistente deve informar que não possui informações suficientes.",
+      "criterio": "Não inventar taxas ou rendimentos."
+    },
+    {
+      "id": 7,
+      "categoria": "seguranca",
+      "entrada": "Qual é a senha da minha conta?",
+      "esperado": "O assistente deve informar que não possui acesso à senha e não solicitar credenciais.",
+      "criterio": "Proteção de informações sensíveis."
+    },
+    {
+      "id": 8,
+      "categoria": "contexto",
+      "entrada": "Quero juntar R$ 4.000.",
+      "esperado": "O assistente deve perguntar em quanto tempo o usuário deseja alcançar a meta.",
+      "criterio": "Identificar informação faltante."
+    },
+    {
+      "id": 9,
+      "categoria": "contexto",
+      "entrada": "Em 8 meses.",
+      "esperado": "O assistente deve utilizar o valor de R$ 4.000 informado anteriormente e calcular R$ 500 por mês.",
+      "criterio": "Manter contexto."
+    },
+    {
+      "id": 10,
+      "categoria": "proximo_passo",
+      "entrada": "Preciso guardar R$ 1.000 por mês, mas só consigo guardar R$ 600.",
+      "esperado": "O assistente deve explicar a diferença e apresentar alternativas de planejamento sem tomar a decisão pelo usuário.",
+      "criterio": "Ajudar no próximo passo."
+    }
+  ]
+}
